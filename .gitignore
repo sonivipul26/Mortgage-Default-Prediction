@@ -1,0 +1,22 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.spark_tmp/
+# JVM HotSpot crash / replay dumps from failed Spark runs (stale; see report).
+hs_err_pid*.log
+replay_pid*.log
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+outputs/*
+!outputs/.gitkeep
+report/*.docx
+
+.env
+.env.*
+!.env.example
